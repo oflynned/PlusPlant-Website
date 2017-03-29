@@ -32,8 +32,9 @@ div.borderless-section > div {
 
 .hero-image {
     margin: auto;
-    background: url("./images/parallax_image.jpg");
+    background: url("images/mountains_cropped.png") fixed bottom;
     background-size: 100vw;
+    min-height: 75vh;
 }
 
 .parallax {
@@ -87,6 +88,13 @@ img.shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+h2.answer {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
 img.logo {
     width: 15em;
     height: auto;
@@ -110,17 +118,17 @@ img.sketch {
 }
 
 .sketch-header {
-    margin-top:1em;
+    margin-top: 1em;
     margin-left: 0;
     padding: 0;
 }
 
 .header-left {
-    text-align:left;
+    text-align: left;
 }
 
 .header-right {
-    text-align:right;
+    text-align: right;
 }
 
 .fill {
