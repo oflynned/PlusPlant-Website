@@ -35,6 +35,7 @@ div.borderless-section > div {
     background: url("images/mountains_cropped.png") fixed bottom;
     background-size: 100vw;
     min-height: 75vh;
+    overflow: hidden;
 }
 
 .parallax {
@@ -140,4 +141,11 @@ img.sketch {
     align-items: center;
     min-height: 75%;
     min-width: 75%;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap; /* optional. only if you want the items to wrap */
+    justify-content: center; /* for horizontal alignment */
+    align-items: center; /* for vertical alignment */
 }
