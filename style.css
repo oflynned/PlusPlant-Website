@@ -34,7 +34,7 @@ div.borderless-section > div {
     margin: auto;
     background: url("images/mountains_cropped.png") fixed bottom;
     background-size: 100vw;
-    min-height: 75vh;
+    min-height: 100vh;
     overflow: hidden;
 }
 
@@ -141,6 +141,17 @@ img.sketch {
     align-items: center;
     min-height: 75%;
     min-width: 75%;
+}
+
+.fill-calculations {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background: no-repeat 0 0;
+    align-items: center;
+    min-height: 75%;
+    min-width: 90%;
 }
 
 .box {
