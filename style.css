@@ -141,10 +141,12 @@ img.sketch {
 
 .fill {
     min-width: 50%;
+    max-width: 1440px;
 }
 
 .fill-calculations {
     min-width: 100%;
+    max-width: 1440px;
 }
 
 .fill-details {
